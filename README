@@ -1,0 +1,15 @@
+LIVE EXAMPLE: http://heretofore.org/dtime/ (courtesy of Ben)
+
+24/60/60 time isn't the best we can do. This clock runs on something better.
+
+1 day = 10,000 seconds = 100 hours = 1000 minutes
+1 hour = 1% of day
+1 second = .864 "old" second
+
+This has several advantages:
+  - More precise with less digits
+  - More natural counting rhythm (Try it! Start counting along with clock, then close eyes and keep counting)
+  - More intuitive time management (If a task takes 5 hours, that is 5% of your day)
+  - I'm sure there are more...
+
+"See you at 72 o'clock!"
