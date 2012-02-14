@@ -4,9 +4,13 @@
 <script type="text/JavaScript" src="index.js"></script> 
 <body onload="init()">
 <div id="time"></div>
-<input id="oldTime"></input>
+<input id="inputField"></input>
 <input id="convertButton" type="button" value="Convert"></input>
-<div id="conversion">HH:MM:SS -> HH:M:SS</div>
+<br>
+<input type="radio" name="whichConvert" value="oldToNew" checked>24->100</input>
+<br>
+<input type="radio" name="whichConvert" value="newToOld">100->24</input>
+<div id="conversion"></div>
 </body>
 </html>
 
