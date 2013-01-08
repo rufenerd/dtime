@@ -12,14 +12,19 @@ function init(){
   $('#convertButton').click( function(){
     $('#conversion').html(onClick());
   });
-  decTime();
+
+  $("#conversionLink").click( function(){
+    $("#conversionLink").hide();
+    $("#conversionTool").show();
+  });
+
+  setInterval('decTime()', 1);
 }
 
 function decTime() {
   var today = new Date();
   var dtime = oldToNew(today)
-  document.getElementById('time').innerHTML = "<h1>"+dtime+"<h1>";
-  setTimeout('decTime()');
+  $("#time").html($("<h1>").text(dtime));
 }
 
 function oldToNew(time) {

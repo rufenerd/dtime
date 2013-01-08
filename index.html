@@ -1,16 +1,29 @@
 <html>
 <head>
+  <link href="index.css" rel="stylesheet" type="text/css">
+</head>
 <script type="text/JavaScript" src="jquery-1.7.1.min.js"></script> 
 <script type="text/JavaScript" src="index.js"></script> 
 <body onload="init()">
-<div id="time"></div>
-<input id="inputField"></input>
-<input id="convertButton" type="button" value="Convert"></input>
-<br>
-<input type="radio" name="whichConvert" value="oldToNew" checked>24->100</input>
-<br>
-<input type="radio" name="whichConvert" value="newToOld">100->24</input>
-<div id="conversion"></div>
+  <div id="time"></div>
+  <div id="conversionLink" class="screen-only">
+    <a href="#conversion">Show Conversion Tool</a>
+  </div>
+  <div id="conversionTool">
+    <input id="inputField"></input>
+    <input id="convertButton" type="button" value="Convert"></input>
+    <br>
+    <div id="convertRadio">
+      <input type="radio" name="whichConvert" value="oldToNew" id="oldToNew" checked>
+      <label for="oldToNew">24->100</label>
+      <input type="radio" name="whichConvert" value="newToOld" id="newToOld">
+      <label for="newToOld">100->24</labelt>
+    </div>
+    <div id="conversion"></div>
+  </div>
+  <div id="githubLink" class="screen-only">
+    <a href="https://github.com/ofhippo/dtime">Check out the project on github</a>
+  </div>
 </body>
 </html>
 

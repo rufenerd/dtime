@@ -1,0 +1,51 @@
+body {
+  background-color:#bfbfbf;
+}
+
+h1 {
+  color: #1B3315;
+  font-family:"Times New Roman";
+  font-size: 80px;
+}
+
+p {
+  font-size:300px;
+}
+
+a {
+  color: #1B3315
+}
+
+label {
+  color:#1B3315;
+}
+
+#convertRadio {
+  padding: 10px;
+}
+
+#conversionTool {
+  display: none;
+}
+
+.screen-only
+{
+	 display: block;
+}
+.mobile-only
+{
+	 display: none;
+}
+
+@media screen and (max-device-width: 700px)  
+{
+	 .screen-only
+	 {
+	 	 display: none;
+	 }
+
+	 .mobile-only
+	 {
+	 	 display: block;
+	 }
+}
