@@ -2,10 +2,16 @@ body {
   background-color:#bfbfbf;
 }
 
+#time {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 h1 {
   color: #1B3315;
   font-family:"Times New Roman";
-  font-size: 80px;
+  font-size: 300px;
 }
 
 p {
